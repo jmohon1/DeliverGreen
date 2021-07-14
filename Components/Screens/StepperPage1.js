@@ -10,7 +10,7 @@ export const StepperPage1 = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation title='MyApp' alignment='center'/>
+      <TopNavigation title='Stepper Page 1' alignment='center'/>
       <Divider/>
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Button onPress={navigateDetails}>NEXT</Button>
