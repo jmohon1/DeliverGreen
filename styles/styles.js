@@ -13,5 +13,9 @@ layout: {
     flex: 1,
     justifyContent: 'center', 
     alignItems: 'center'
+},
+stepperImages: {
+    height: 300,
+    width: '100%'
 }
 })
