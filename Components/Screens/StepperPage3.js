@@ -1,11 +1,23 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { Button, Divider, Layout, TopNavigation } from '@ui-kitten/components';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+
+const onboardingComplete = async (value) => {
+  try {
+    const jsonValue = JSON.stringify(value)
+    await AsyncStorage.setItem('@storage_Key', jsonValue)
+  } catch (e) {
+    // saving error
+  }
+}
 
 export const StepperPage3 = ({ navigation }) => {
 
   const navigateDetails = () => {
     navigation.navigate('Home');
+    onboardingComplete(1);
   };
 
   return (

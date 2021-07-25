@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { Button, Divider, Layout, TopNavigation } from '@ui-kitten/components';
+import { globalStyles } from '../../assets/styles'
 
 export const StepperPage1 = ({ navigation }) => {
 
@@ -8,11 +9,12 @@ export const StepperPage1 = ({ navigation }) => {
     navigation.navigate('StepperPage2');
   };
 
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <TopNavigation title='Stepper Page 1' alignment='center'/>
       <Divider/>
-      <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Layout style={globalStyles.layout}>
         <Button onPress={navigateDetails}>NEXT</Button>
       </Layout>
     </SafeAreaView>
