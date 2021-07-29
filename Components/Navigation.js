@@ -18,7 +18,6 @@ const HomeNavigator = () => (
     <Screen name='StepperPage3' component={StepperPage3}/>
     <Screen name='Home' component={HomeScreen}/>
     <Screen name='Details' component={DetailsScreen}/>
-
   </Navigator>
 );
 

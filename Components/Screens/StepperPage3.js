@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, Image } from 'react-native';
+import { SafeAreaView, Image, Text } from 'react-native';
 import { Button, Divider, Layout, TopNavigation } from '@ui-kitten/components';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { globalStyles } from '../../styles/styles'
@@ -23,11 +23,14 @@ export const StepperPage3 = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation title='Stepper Page 3' alignment='center'/>
+      <TopNavigation title='' alignment='center'/>
       <Divider/>
-      <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Layout style={globalStyles.container}>
+      <Image style={globalStyles.stepperLogo} source={require('../Images/appstore.png')} />
+      <Text style={globalStyles.stepperh1}>Pay!{"\n"}With Ease</Text>
+      <Text style={globalStyles.stepperp}>Pay with your credit card, and get it delivered in an average of 27 minutes. We've made it that easy.</Text>
+      <Button style={globalStyles.button} onPress={navigateDetails}>Get Started</Button>
       <Image style={globalStyles.stepperImages} source={require('../Images/stepperimage3.png')} />
-        <Button onPress={navigateDetails}>Next</Button>
       </Layout>
     </SafeAreaView>
   );
