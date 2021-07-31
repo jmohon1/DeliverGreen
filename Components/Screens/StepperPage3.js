@@ -24,7 +24,6 @@ export const StepperPage3 = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <TopNavigation title='' alignment='center'/>
-      <Divider/>
       <Layout style={globalStyles.container}>
       <Image style={globalStyles.stepperLogo} source={require('../Images/appstore.png')} />
       <Text style={globalStyles.stepperh1}>Pay!{"\n"}With Ease</Text>

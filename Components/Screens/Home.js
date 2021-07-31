@@ -10,9 +10,18 @@ export const HomeScreen = ({ navigation }) => {
   };
 
   return (
-    <WebView
-        source={{ uri: 'https://webjointtraining.webjoint.com/premiumshop/index.html#' }}
-        style={{ marginTop: 25 }}
+    <WebView options={{
+      title: 'My home',
+      headerStyle: {
+        backgroundColor: '#f4511e',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
+    }}
+        source={{ uri: 'https://delivergreen.com/shop/index.html#' }}
+        style={{ marginTop: 15, backgroundColor: '#000' }}
       />
   );
 };

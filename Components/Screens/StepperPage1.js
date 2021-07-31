@@ -12,8 +12,7 @@ export const StepperPage1 = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation title='' alignment='center'/>
-      <Divider/>
+      <TopNavigation style={globalStyles.navigatorheader} title='' alignment='center'/>
       <Layout style={globalStyles.container}>
       <Image style={globalStyles.stepperLogo} source={require('../Images/appstore.png')} />
       <Text style={globalStyles.stepperh1}>Welcome!{"\n"}To Deliver Green</Text>

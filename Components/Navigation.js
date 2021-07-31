@@ -6,6 +6,7 @@ import { DetailsScreen } from './Screens/Details';
 import { StepperPage1 } from './Screens/StepperPage1';
 import { StepperPage2 } from './Screens/StepperPage2';
 import { StepperPage3 } from './Screens/StepperPage3';
+import { globalStyles } from '../styles/styles';
 
 
 
@@ -13,7 +14,7 @@ const { Navigator, Screen } = createStackNavigator();
 
 const HomeNavigator = () => (
   <Navigator headerMode='none'>
-    <Screen name='StepperPage1' component={StepperPage1}/>
+    <Screen  name='StepperPage1' component={StepperPage1}/>
     <Screen name='StepperPage2' component={StepperPage2}/>
     <Screen name='StepperPage3' component={StepperPage3}/>
     <Screen name='Home' component={HomeScreen}/>
@@ -23,6 +24,6 @@ const HomeNavigator = () => (
 
 export const AppNavigator = () => (
   <NavigationContainer>
-    <HomeNavigator/>
+    <HomeNavigator />
   </NavigationContainer>
 );

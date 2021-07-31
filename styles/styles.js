@@ -15,33 +15,38 @@ stepperImages: {
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
     overflow: "hidden",
-    backgroundColor: '#e7f4d5'
+    backgroundColor: '#e7f4d5',
+    marginTop: 80
 },
 stepperLogo: {
     height: 100,
     width: 100,
-    marginBottom: 40,
-    marginTop: 20,
-    marginLeft: 25
+    marginBottom: 20,
+    marginLeft: 25,
+    marginTop: -20
 },
 stepperh1: {
     alignContent: 'flex-start',
     fontWeight: 'bold',
     fontSize: 30,
     marginBottom: 20,
-    marginLeft: 25
+    marginLeft: 25,
 },
 stepperp: {
     fontSize: 16,
     marginBottom: 20,
-    marginLeft: 25
+    marginLeft: 25,
+    marginRight: 5,
+    color: '#757575'
+
 },
 button: {
     marginLeft: 25,
     marginBottom: 20,
     maxWidth: '40%',
-    backgroundColor: '#769253',
-    borderColor: '#769253',
+    backgroundColor: '#619542',
+    borderColor: '#619542',
     borderRadius: 20
+},
 }
-})
+)
