@@ -25,7 +25,7 @@ export const StepperPage3 = ({ navigation }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <TopNavigation title='' alignment='center'/>
       <Layout style={globalStyles.container}>
-      <Image style={globalStyles.stepperLogo} source={require('../Images/appstore.png')} />
+      <Image style={globalStyles.stepperLogo} source={require('../Images/delivergreen_logo_withtext-01.png')} />
       <Text style={globalStyles.stepperh1}>Pay!{"\n"}With Ease</Text>
       <Text style={globalStyles.stepperp}>Pay with your credit card, and get it delivered in an average of 27 minutes. We've made it that easy.</Text>
       <Button style={globalStyles.button} onPress={navigateDetails}>Get Started</Button>

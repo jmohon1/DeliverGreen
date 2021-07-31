@@ -13,7 +13,7 @@ export const StepperPage2 = ({ navigation }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <TopNavigation title='' alignment='center'/>
       <Layout style={globalStyles.container}>
-      <Image style={globalStyles.stepperLogo} source={require('../Images/appstore.png')} />
+      <Image style={globalStyles.stepperLogo} source={require('../Images/delivergreen_logo_withtext-01.png')} />
       <Text style={globalStyles.stepperh1}>Shop!{"\n"}With Confidence</Text>
       <Text style={globalStyles.stepperp}>Our menu's curated with the best selling products from the best selling brands. Why settle for anything less?</Text>
       <Button style={globalStyles.button} onPress={navigateDetails}>NEXT</Button>
