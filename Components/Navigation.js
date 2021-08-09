@@ -15,8 +15,6 @@ const { Navigator, Screen } = createStackNavigator();
 const HomeNavigator = () => (
   <Navigator headerMode='none'>
     <Screen  name='StepperPage1' component={StepperPage1}/>
-    <Screen name='StepperPage2' component={StepperPage2}/>
-    <Screen name='StepperPage3' component={StepperPage3}/>
     <Screen name='Home' component={HomeScreen}/>
     <Screen name='Details' component={DetailsScreen}/>
   </Navigator>

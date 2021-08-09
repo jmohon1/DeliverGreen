@@ -29,21 +29,20 @@ stepperh1: {
     alignContent: 'flex-start',
     fontWeight: 'bold',
     fontSize: 30,
-    marginBottom: 20,
-    marginLeft: 25,
+    textAlign: 'center'
+
 },
 stepperp: {
     fontSize: 16,
     marginBottom: 20,
-    marginLeft: 25,
-    marginRight: 5,
+    textAlign: 'center',
     color: '#757575'
 
 },
 button: {
     marginLeft: 25,
     marginBottom: 20,
-    maxWidth: '40%',
+    maxWidth: '50%',
     backgroundColor: '#619542',
     borderColor: '#619542',
     borderRadius: 20
