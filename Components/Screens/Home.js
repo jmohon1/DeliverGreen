@@ -20,7 +20,7 @@ export const HomeScreen = ({ navigation }) => {
         fontWeight: 'bold',
       },
     }}
-        source={{ uri: 'https://delivergreen.com/shop/index.html#' }}
+        source={{ uri: 'https://delivergreen.webjoint.xyz/premiumshop/index.html#' }}
         style={{ marginTop: 15, backgroundColor: '#000' }}
       />
   );
